@@ -1,0 +1,36 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "oxygen";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: oxygen;
+  src: url(../asset/font/oxygen.ttf);
+}
+
+/* Ketik code Anda dibawah */
