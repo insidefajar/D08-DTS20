@@ -71,6 +71,11 @@ a {
   box-sizing: border-box;
   border-radius: 8px;
   background-color: rgba(9, 7, 102, 0.15);
+  transition: 500ms;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 20px rgb(12, 8, 167, 0.3);
 }
 
 .img img {
