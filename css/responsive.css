@@ -1,0 +1,28 @@
+/* Layout untuk Tablet */
+@media (max-width: 1000px) {
+
+    /* Profile */
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .cards .card {
+        width: 25%;
+        margin: 10px 15px;
+    }
+}
+
+/* Layout untuk Smartphone */
+/* Tetapkan lebar breakpoint ke 670px dan di bawahnya ke media query */
+@media (max-width: 670px) {
+
+    /* Profile */
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards .card {
+        width: 75%;
+        margin: 10px auto;
+    }
+}

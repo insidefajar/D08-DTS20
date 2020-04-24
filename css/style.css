@@ -34,3 +34,71 @@ a {
 }
 
 /* Ketik code Anda dibawah */
+
+/* Profile */
+.profile {
+  padding: 0 40px;
+  color: #0C08A7;
+  text-align: center;
+}
+
+.profile-heading {
+  margin: 110px 0px;
+}
+
+.profile-heading p:first-of-type {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.profile-heading p:last-of-type {
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  letter-spacing: 0.15em;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  flex: auto;
+  margin: 15px;
+  width: 242px;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: rgba(9, 7, 102, 0.15);
+}
+
+.img img {
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.job {
+  font-size: 18px;
+  font-weight: lighter;
+  padding-bottom: 8px;
+  border-bottom: solid 1px #0C08A7;
+}
+
+.description {
+  color: #01000C;
+  padding: 23px 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.sosialMedia a {
+  display: inline-block;
+  margin: auto 0;
+  padding: 0 5px;
+}
