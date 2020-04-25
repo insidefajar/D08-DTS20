@@ -52,4 +52,14 @@
         width: 75%;
         margin: 10px auto;
     }
+
+    /* Message */
+    .message-wrapper {
+        flex-direction: column;
+        padding: 150px 50px;
+    }
+
+    .message-wrapper .heading {
+        text-align: center;
+    }
 }

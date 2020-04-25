@@ -178,3 +178,106 @@ main {
   margin: auto 0;
   padding: 0 5px;
 }
+
+/* ?Message? */
+.message-wrapper {
+  height: 450px;
+  display: flex;
+  padding: 150px 100px 0px 100px;
+  margin-bottom: 150px;
+}
+
+
+.message-wrapper .heading {
+  flex-basis: 40%;
+  margin-bottom: 50px;
+}
+
+.message-wrapper h1 {
+  color: #0C08A7;
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.message-wrapper h2 {
+  color: #0C08A7;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.message-wrapper .heading .line {
+  display: inline-block;
+  height: 3px;
+  background-color: #0C08A7;
+  width: 50%;
+}
+
+.message-wrapper .form {
+  flex-basis: 60%;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.message-wrapper .form .form-group {
+  background-color: rgba(12, 8, 167, .15);
+  padding: 50px;
+  border-radius: 10px;
+  height: 450px;
+  overflow: visible;
+}
+
+.form-group {
+  transition: 500ms;
+}
+
+.form-group:hover {
+  box-shadow: 0px 0px 25px rgba(38, 37, 59, 0.5);
+}
+
+.form-group input {
+  display: block;
+  margin: 10px 0px;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+  color: rgb(49, 45, 189);
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  display: block;
+  margin: 10px 0px;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  height: 150px;
+  border-radius: 5px;
+  max-height: 150px;
+  max-width: 100%;
+  box-sizing: border-box;
+  color: rgb(49, 45, 189);
+}
+
+.form-group textarea:focus,
+.form-group input:focus {
+  border: unset;
+  box-shadow: rgba(12, 8, 167, .15);
+}
+
+.form-group label {
+  color: #0C08A7;
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.form-group .submit {
+  background-color: #0C08A7;
+  color: white;
+  width: 45%;
+  cursor: pointer;
+  margin: 20px 0px;
+}
