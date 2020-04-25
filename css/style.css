@@ -17,6 +17,7 @@ div {
 }
 
 body {
+  background-color: #edf2f7;
   font-family: "oxygen";
 }
 
@@ -44,6 +45,7 @@ header {
   box-sizing: border-box;
   background-color: #0C08A7;
   color: white;
+  box-shadow: 0px 10px 25px rgba(38, 37, 59, 0.2);
 }
 
 .logo-brand {
@@ -147,7 +149,7 @@ main {
 
 .card:hover {
   transform: scale(1.01);
-  box-shadow: 0px 0px 25px rgba(38, 37, 59, 0.5);
+  box-shadow: 0px 0px 25px rgba(38, 37, 59, 0.2);
 }
 
 .img img {
@@ -234,7 +236,7 @@ main {
 
 .form-group:hover {
   transform: scale(1.02);
-  box-shadow: 0px 0px 25px rgba(38, 37, 59, 0.5);
+  box-shadow: 0px 0px 25px rgba(38, 37, 59, 0.2);
 }
 
 .form-group input {
