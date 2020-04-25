@@ -281,3 +281,13 @@ main {
   cursor: pointer;
   margin: 20px 0px;
 }
+
+/* ?Footer? */
+footer {
+  background-color: #0C08A7;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 25px 0px;
+}
