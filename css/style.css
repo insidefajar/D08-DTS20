@@ -142,10 +142,11 @@ main {
   box-sizing: border-box;
   border-radius: 8px;
   background-color: rgba(9, 7, 102, 0.15);
-  transition: 500ms;
+  transition: 300ms;
 }
 
 .card:hover {
+  transform: scale(1.01);
   box-shadow: 0px 0px 25px rgba(38, 37, 59, 0.5);
 }
 
@@ -154,21 +155,21 @@ main {
 }
 
 .name {
-  margin-top: 20px;
-  font-size: 22px;
+  padding-top: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .job {
   font-size: 18px;
   font-weight: lighter;
-  padding-bottom: 8px;
+  padding: 10px 0;
   border-bottom: solid 1px #0C08A7;
 }
 
 .description {
   color: #01000C;
-  padding: 23px 0;
+  padding: 15px 0;
   font-size: 16px;
   line-height: 20px;
 }
@@ -176,7 +177,7 @@ main {
 .sosialMedia a {
   display: inline-block;
   margin: auto 0;
-  padding: 0 5px;
+  padding: 0 2.5px;
 }
 
 /* ?Message? */
@@ -228,10 +229,11 @@ main {
 }
 
 .form-group {
-  transition: 500ms;
+  transition: 300ms;
 }
 
 .form-group:hover {
+  transform: scale(1.02);
   box-shadow: 0px 0px 25px rgba(38, 37, 59, 0.5);
 }
 
