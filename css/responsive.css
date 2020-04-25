@@ -16,6 +16,17 @@
 /* Tetapkan lebar breakpoint ke 670px dan di bawahnya ke media query */
 @media (max-width: 670px) {
 
+    /* Navbar */
+    .navbar ul li {
+        display: none;
+    }
+
+    .logo-brand {
+        text-align: center;
+        float: none;
+        margin: 15px auto;
+    }
+
     /* Profile */
     .cards {
         flex-direction: column;
