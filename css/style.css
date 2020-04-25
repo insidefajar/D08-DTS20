@@ -87,7 +87,7 @@ main {
   /* display: none; */
   height: 300px;
   text-align: center;
-  background-image: url(/asset/img/hero.png);
+  background-image: url(/asset/img/hero.jpg);
   background-size: cover;
   background-position: bottom center;
   color: white;
